@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.magic8"
+    versionCode = "1"
+    version     = "1.0.0" >
+
+
+  <name>Magic 8 Ball</name>
+
+  <description>
+     
+  </description>
+
+ 
+    <plugin name="cordova-plugin-dialogs" spec="~1.3.3" />
+    <plugin name="cordova-plugin-vibration" spec="~2.1.5" />
+    <plugin name="cordova-plugin-shake" source="npm" />
+</widget>
