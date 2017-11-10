@@ -56,7 +56,7 @@ function getAnswer() {
     if(rand <= 10)
     {
         $("#responseText").css('color', 'green'); 
-        navigator.notification.beep(1);	
+        navigator.notification.beep(3);	
     }
                 
     //neutral answer 
