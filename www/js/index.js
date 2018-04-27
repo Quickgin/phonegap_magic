@@ -69,7 +69,7 @@ function getAnswer() {
     else 
     {
         $("#responseText").css('color', 'red');
-        navigator.vibrate([500, 500, 500]);
+        navigator.vibrate(3000);
     }
 }
 
